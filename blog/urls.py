@@ -11,7 +11,7 @@ urlpatterns = [
 
 
 
-    path('/checkout')
+    path('store/', views.store, name="blog-store")
 ]
 
 

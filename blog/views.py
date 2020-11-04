@@ -31,6 +31,16 @@ def about(request):
 
 
 
+def store(request):
+    context = {
+        "posts": posts
+    }
+    return render(request, 'blog/store.html', context)
+
+
+
+
+
 
 
 # def about(request):

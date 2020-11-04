@@ -22,7 +22,6 @@ urlpatterns = [
 
 
 
-    path('store/', include('blog.urls'))
 ]
 
 
